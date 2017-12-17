@@ -1,0 +1,105 @@
+svg{
+  width:100%;
+}
+
+.node.comp rect {
+  fill: #2378CE;
+  width: 200px;
+}
+.node.comp.ext rect {
+  fill: #2378CE;
+  width: 444px;
+}
+
+
+.node.host rect {
+  fill: #239DDB; 
+  width: 150px;
+}
+
+.node g div {
+  fill: #239DDB; 
+  width: 150px;
+  height: 48px;
+}
+
+.node .ext g div {
+  fill: #239DDB; 
+  width: 250px;
+  height: 48px;
+}
+
+.node g div img {
+  width: 48px;
+  height: 48px;
+}
+
+.edgeLabel rect {
+  fill: #f45;
+}
+
+.edgePath path.path {
+  stroke-width: 2px;
+  fill: none;
+}
+
+.edgePath {
+  stroke: black;
+  stroke-width: 0px;
+}
+
+.edgePath off {
+  stroke: red;
+  stroke-width: 0px;
+}
+
+.edge:hover {
+  stroke: #353940;
+  stroke-width: 6px;
+}
+
+.edge .normal {
+  stroke: black;
+  fill: black;
+}
+
+.edge .warning {
+  stroke: red;
+  fill: red;
+}
+/* This styles the title of the tooltip */
+.tipsy .name {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #60b1fc;
+  margin: 0;
+}
+
+/* This styles the body of the tooltip */
+.tipsy .description {
+  font-size: 1.2em;
+}
+.d3-context-menu {
+position: absolute;
+display: none;
+background-color: #f2f2f2;
+border-radius: 4px;
+font-family: Arial, sans-serif;
+font-size: 14px;
+min-width: 150px;
+border: 1px solid #d4d4d4;
+z-index:1200;
+}
+.d3-context-menu ul {
+list-style-type: none;
+margin: 4px 0px;
+padding: 0px;
+cursor: default;
+}
+.d3-context-menu ul li {
+padding: 4px 16px;
+}
+.d3-context-menu ul li:hover {
+background-color: #4677f8;
+color: #fefefe;
+}
